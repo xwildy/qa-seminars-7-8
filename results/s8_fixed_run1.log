@@ -1,0 +1,104 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< ru.qa.course:seminar8-flaky >---------------------
+[INFO] Building seminar8-flaky 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-junit5/2.29.0/allure-junit5-2.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-junit5/2.29.0/allure-junit5-2.29.0.pom (2.0 kB at 6.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-junit-platform/2.29.0/allure-junit-platform-2.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-junit-platform/2.29.0/allure-junit-platform-2.29.0.pom (2.6 kB at 143 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.pom (2.2 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.pom (2.8 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.13/slf4j-parent-2.0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.13/slf4j-parent-2.0.13.pom (13 kB at 668 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.13/slf4j-bom-2.0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.13/slf4j-bom-2.0.13.pom (7.3 kB at 458 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.pom (1.8 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.pom (3.2 kB at 187 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.pom (2.8 kB at 157 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.pom (3.0 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.pom (3.2 kB at 189 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.pom (2.0 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.pom (2.2 kB at 139 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-junit5/2.29.0/allure-junit5-2.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-junit5/2.29.0/allure-junit5-2.29.0.jar (5.2 kB at 228 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-junit-platform/2.29.0/allure-junit-platform-2.29.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar (18 kB at 300 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar (69 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-junit-platform/2.29.0/allure-junit-platform-2.29.0.jar (25 kB at 356 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar (184 kB at 2.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.jar (6.9 kB at 84 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar (2.4 MB at 20 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.jar (2.2 MB at 15 MB/s)
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ seminar8-flaky ---
+[INFO] skip non existing resourceDirectory /home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ seminar8-flaky ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ seminar8-flaky ---
+[INFO] skip non existing resourceDirectory /home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ seminar8-flaky ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 9 source files with javac [debug target 21] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ seminar8-flaky ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+[INFO] Running ru.qa.course.tests.BookShopRegressionTest
+[chromedriver] версия Chrome не определена, использую вложенный драйвер
+Nov 07, 2026 10:08:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 07, 2026 10:08:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[chromedriver] версия Chrome не определена, использую вложенный драйвер
+Nov 07, 2026 10:08:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 07, 2026 10:08:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[chromedriver] версия Chrome не определена, использую вложенный драйвер
+Nov 07, 2026 10:08:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 07, 2026 10:08:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[chromedriver] версия Chrome не определена, использую вложенный драйвер
+Nov 07, 2026 10:08:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 07, 2026 10:08:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.14 s -- in ru.qa.course.tests.BookShopRegressionTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.528 s
+[INFO] Finished at: 2026-11-07T10:08:09Z
+[INFO] ------------------------------------------------------------------------

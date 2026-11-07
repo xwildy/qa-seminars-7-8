@@ -1,0 +1,9 @@
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/core/BaseTest.java
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/core/Book.java
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/core/ChromeDriverResolver.java
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/core/Config.java
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/pages/BasePage.java
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/pages/CartPage.java
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/pages/CatalogPage.java
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/pages/LoginPage.java
+/home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/src/test/java/ru/qa/course/tests/BookShopRegressionTest.java

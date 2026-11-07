@@ -1,0 +1,48 @@
+Дата прогона (UTC): 2026-11-07 10:06:33
+Runner: Ubuntu 26.04.1 LTS
+Java: openjdk version "21.0.13" 2026-10-20 LTS
+Maven: Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Chrome: Google Chrome 156.0.8078.79 
+
+== s7_original (seminar7-original), прогонов: 1
+  прогон 1: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+== s7_refactored (seminar7), прогонов: 3
+  прогон 1: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+  прогон 2: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+  прогон 3: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+== s8_flaky_original (seminar8-original), прогонов: 5
+  прогон 1: RED | [ERROR] Tests run: 4, Failures: 3, Errors: 0, Skipped: 0
+      [ERROR]   BookShopRegressionTest.test2CatalogFirstBookStable:44 expected: <Рефакторинг> but was: <Совершенный код>
+      [ERROR]   BookShopRegressionTest.test3AddBookByPositionUpdatesBadge:56 expected: <2> but was: <0>
+      [ERROR]   BookShopRegressionTest.test4CartShowsAddedBooks:66 expected: <Рефакторинг> but was: <Чистый код x1>
+  прогон 2: RED | [ERROR] Tests run: 4, Failures: 3, Errors: 0, Skipped: 0
+      [ERROR]   BookShopRegressionTest.test2CatalogFirstBookStable:44 expected: <Рефакторинг> but was: <Чистый код>
+      [ERROR]   BookShopRegressionTest.test3AddBookByPositionUpdatesBadge:56 expected: <2> but was: <0>
+      [ERROR]   BookShopRegressionTest.test4CartShowsAddedBooks:66 expected: <Рефакторинг> but was: <Совершенный код x2>
+  прогон 3: RED | [ERROR] Tests run: 4, Failures: 1, Errors: 2, Skipped: 0
+      org.openqa.selenium.StaleElementReferenceException: 
+      org.openqa.selenium.NoSuchElementException: 
+      [ERROR]   BookShopRegressionTest.test2CatalogFirstBookStable:44 expected: <Рефакторинг> but was: <Тестирование Дот Ком>
+      [ERROR]   BookShopRegressionTest.test3AddBookByPositionUpdatesBadge:54 » StaleElementReference stale element reference: stale element not found in the current frame
+      [ERROR]   BookShopRegressionTest.test4CartShowsAddedBooks:66 » NoSuchElement no such element: Unable to locate element: {"method":"css selector","selector":"[data-test=cart-line] span"}
+  прогон 4: RED | [ERROR] Tests run: 4, Failures: 3, Errors: 0, Skipped: 0
+      [ERROR]   BookShopRegressionTest.test2CatalogFirstBookStable:44 expected: <Рефакторинг> but was: <Тестирование Дот Ком>
+      [ERROR]   BookShopRegressionTest.test3AddBookByPositionUpdatesBadge:56 expected: <2> but was: <0>
+      [ERROR]   BookShopRegressionTest.test4CartShowsAddedBooks:66 expected: <Рефакторинг> but was: <Чистый код x2>
+  прогон 5: RED | [ERROR] Tests run: 4, Failures: 2, Errors: 1, Skipped: 0
+      org.openqa.selenium.NoSuchElementException: 
+      [ERROR]   BookShopRegressionTest.test2CatalogFirstBookStable:44 expected: <Рефакторинг> but was: <Чистый код>
+      [ERROR]   BookShopRegressionTest.test3AddBookByPositionUpdatesBadge:56 expected: <2> but was: <1>
+      [ERROR]   BookShopRegressionTest.test4CartShowsAddedBooks:66 » NoSuchElement no such element: Unable to locate element: {"method":"css selector","selector":"[data-test=cart-line] span"}
+
+== s8_fixed (seminar8) + Allure, прогонов: 5
+  прогон 1: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+  прогон 2: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+  прогон 3: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+  прогон 4: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+  прогон 5: GREEN | [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+== Демонстрация: скриншот при падении в Allure (намеренно неверный ожидаемый итог)
+  [ERROR] Tests run: 4, Failures: 1, Errors: 0, Skipped: 0

@@ -1,0 +1,9 @@
+ru/qa/course/pages/CartPage.class
+ru/qa/course/pages/BasePage.class
+ru/qa/course/core/ChromeDriverResolver.class
+ru/qa/course/core/BaseTest.class
+ru/qa/course/tests/BookShopRegressionTest.class
+ru/qa/course/pages/LoginPage.class
+ru/qa/course/core/Config.class
+ru/qa/course/core/Book.class
+ru/qa/course/pages/CatalogPage.class

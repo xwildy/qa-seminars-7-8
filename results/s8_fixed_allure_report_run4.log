@@ -1,0 +1,30 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/qameta/allure/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/qameta/allure/maven-metadata.xml (226 B at 710 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 64 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (10 kB at 32 kB/s)
+[INFO] 
+[INFO] --------------------< ru.qa.course:seminar8-flaky >---------------------
+[INFO] Building seminar8-flaky 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- allure:2.15.2:report (default-cli) @ seminar8-flaky ---
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO] Allure installation directory /home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/.allure
+[INFO] Try to finding out allure 2.29.0
+[INFO] Generate Allure report (report) with version 2.29.0
+[INFO] Generate Allure report to /home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/target/site/allure-maven-plugin
+[INFO] Found results directory /home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/target/allure-results
+[INFO] Can't find information about categories
+[INFO] Generate report to /home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/target/site/allure-maven-plugin
+Report successfully generated to /home/runner/work/qa-seminars-7-8/qa-seminars-7-8/seminar8/target/site/allure-maven-plugin
+[INFO] Report generated successfully.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.936 s
+[INFO] Finished at: 2026-11-07T10:09:20Z
+[INFO] ------------------------------------------------------------------------
